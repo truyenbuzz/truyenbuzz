@@ -1,0 +1,39 @@
+#nav {
+  background: #fff;
+  border-color: #fff;
+
+  border-radius: 0;
+  box-shadow: 2px 2px 2px #888888;
+
+  margin-bottom: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	top: 0;
+}
+#nav-header a{
+  color: #555;
+  font-weight: bold;
+  font-size:20px;
+}
+#nav-item{
+  color: #555;
+  font-size:18px;
+}
+#basic-nav-dropdown {
+  color: #555;
+  font-size: 18px;
+}
+#basic-nav-dropdown:hover {
+  background:  #1a1a1a;
+  color: white;
+}
+#basic-nav-dropdown:focus {
+  background:  #1a1a1a;
+  color: white;
+}
+
+#nav-item:hover {
+  background:  #1a1a1a;
+  color: white
+}
