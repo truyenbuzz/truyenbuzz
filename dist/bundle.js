@@ -21558,8 +21558,7 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        _react2.default.createElement(_Header2.default, null),
-	        _react2.default.createElement(_Footer2.default, null)
+	        _react2.default.createElement(_Header2.default, null)
 	      );
 	    }
 	  }]);
@@ -21611,17 +21610,17 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        _reactBootstrap.Navbar,
-	        { inverse: true, collapseOnSelect: true },
+	        { inverse: true, collapseOnSelect: true, id: 'nav' },
 	        _react2.default.createElement(
 	          _reactBootstrap.Navbar.Header,
-	          null,
+	          { id: 'nav-header' },
 	          _react2.default.createElement(
 	            _reactBootstrap.Navbar.Brand,
 	            null,
 	            _react2.default.createElement(
 	              'a',
-	              { href: '#' },
-	              'React-Bootstrap'
+	              { href: '/' },
+	              'Truy\u1EC7nbuzz'
 	            )
 	          ),
 	          _react2.default.createElement(_reactBootstrap.Navbar.Toggle, null)
@@ -21633,18 +21632,8 @@
 	            _reactBootstrap.Nav,
 	            null,
 	            _react2.default.createElement(
-	              _reactBootstrap.NavItem,
-	              { eventKey: 1, href: '#' },
-	              'Link'
-	            ),
-	            _react2.default.createElement(
-	              _reactBootstrap.NavItem,
-	              { eventKey: 2, href: '#' },
-	              'Link'
-	            ),
-	            _react2.default.createElement(
 	              _reactBootstrap.NavDropdown,
-	              { eventKey: 3, title: 'Dropdown', id: 'basic-nav-dropdown' },
+	              { eventKey: 3, title: 'Th\u1EC3 lo\u1EA1i', id: 'basic-nav-dropdown' },
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
 	                { eventKey: 3.1 },
@@ -21673,13 +21662,8 @@
 	            { pullRight: true },
 	            _react2.default.createElement(
 	              _reactBootstrap.NavItem,
-	              { eventKey: 1, href: '#' },
-	              'Link Right'
-	            ),
-	            _react2.default.createElement(
-	              _reactBootstrap.NavItem,
-	              { eventKey: 2, href: '#' },
-	              'Link Right'
+	              { id: 'nav-item', eventKey: 1, href: '/' },
+	              '\u0110\u0103ng nh\u1EADp'
 	            )
 	          )
 	        )
