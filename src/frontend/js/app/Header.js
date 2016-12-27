@@ -1,13 +1,13 @@
 import React from 'react';
 import {Navbar, Nav, NavbarBrand, NavbarHeader, NavbarToggle, NavDropdown, NavItem, MenuItem} from 'react-bootstrap';
-
+import {Link} from 'react-router';
 class Header extends React.Component {
   render() {
     return (
       <Navbar inverse collapseOnSelect id="nav">
         <Navbar.Header id="nav-header">
           <Navbar.Brand>
-            <a href="/">Truyệnbuzz</a>
+            <Link to="/">Truyệnbuzz</Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>

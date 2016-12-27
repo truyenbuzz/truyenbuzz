@@ -9,4 +9,4 @@ webpack
 
 ------RUN----------
 
-webpack-dev-server --content-base dist
+webpack-dev-server

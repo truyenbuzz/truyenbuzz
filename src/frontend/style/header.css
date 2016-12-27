@@ -19,6 +19,7 @@
   color: black;
   font-size: 19px;
   font-weight: bold;
+  transition: 0.2s;
 }
 #basic-nav-dropdown:hover {
   background:  #1a1a1a;
@@ -27,11 +28,13 @@
 #basic-nav-dropdown:focus {
   background:  #1a1a1a;
   color: white;
+
 }
 #nav-item{
   color: black;
   font-size:19px;
   font-weight: bold;
+  transition: 0.2s;
 }
 
 #nav-item:hover {

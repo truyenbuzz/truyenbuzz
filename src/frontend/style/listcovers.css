@@ -10,7 +10,6 @@
 .list-covers-segment {
   background: white;
   box-shadow: 1px 1px 2px #888888;
-  
 
 }
 .main-header{
@@ -50,9 +49,6 @@ figcaption {
 figure div {
 	margin-left: 5px;
 	width: 144.6px;
-}
-#route-title, #route-genre {
-	color: #555;
 }
 
 .title {
@@ -116,9 +112,15 @@ figure div {
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
-#route-img {
+.route-img {
 	height: 180px;
 }
-#route-title, #route-genre {
-	color: #555;
+.route-title{
+	color: #993333;
+}
+.route-title:hover {
+  color: #993333;
+}
+.route-genre {
+  color: #555;
 }

@@ -1,5 +1,6 @@
 var path = require('path');
 var srcPath = path.join(__dirname, 'src');
+
 module.exports = {
   context: srcPath,
   entry: path.join(srcPath, 'frontend/js', 'client.js'),
@@ -19,5 +20,5 @@ module.exports = {
           },
           {test: /\.css$/, loader: "style-loader!css-loader"}
       ]
-  },
+  }
 };

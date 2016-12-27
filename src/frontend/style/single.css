@@ -1,3 +1,8 @@
+.test {
+  margin-top: 90px;
+  background: white;
+  padding: 0;
+}
 div {
   display: block;
 }
@@ -27,7 +32,9 @@ div {
 	margin-bottom: 10px;
 	text-align: center;
 }
-
+.single-body span{
+  margin-right: 5px;
+}
 #single-intro {
 	text-align: justify;
 }
@@ -103,6 +110,7 @@ hr {
 .label-fav{
 	background-color: #E6E6E6;
 	color: black;
+  transition: 0.2s;
 }
 
 .label-fav:hover{
