@@ -1,0 +1,118 @@
+div {
+  display: block;
+}
+
+#single-header {
+	text-align: left;
+	background-color: olive;
+	color: white;
+	font-weight: bold;
+	font-size: 23px;
+	padding-left: 10px;
+	height: 60px;
+	line-height: 60px;
+}
+
+.middle {
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.cover {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#single-intro {
+	text-align: justify;
+}
+
+p {
+	display: block;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+.label {
+	display: inline;
+	color: #fff;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1;
+	padding: .3em .6em;
+	vertical-align: baseline;
+	white-space: nowrap;
+}
+
+.label-info {
+	background-color: #03a9f4;
+}
+
+.label-chap {
+	background-color: #4caf50;
+}
+
+.label-view {
+	background-color: #009688;
+}
+
+.content {
+	font-size: 20px;
+	display: block;
+}
+
+ul {
+  list-style: none;
+  display: block;
+}
+
+.chapters {
+	display: block;
+	color: #009688;
+	border-bottom: 1px solid #cccccc;
+	padding: 8px 10px;
+}
+
+.chapters:last-child {
+	display: block;
+	color: #009688;
+	border-bottom: 0px;
+	margin-bottom: 0px;
+	padding: 8px 10px;
+}
+
+hr {
+	border-color: #7d4627;
+}
+
+.single-image {
+	text-align: center;
+	display: table;
+	max-width: 30%;
+	margin: 10px auto;
+	line-height: 20px;
+}
+
+.label-fav{
+	background-color: #E6E6E6;
+	color: black;
+}
+
+.label-fav:hover{
+	color:orange;
+}
+
+#fav-icon{
+		font-size: 25px;
+}
+
+#fav-content1{
+	font-size: 18px;
+}
