@@ -21563,7 +21563,11 @@
 	        'div',
 	        null,
 	        _react2.default.createElement(_Header2.default, null),
+<<<<<<< HEAD:bundle.js
 	        _react2.default.createElement(_ListCovers2.default, null)
+=======
+	        _react2.default.createElement(Single, null)
+>>>>>>> 2d8f86514b028ba4de26b3534ff0020638e7220a:dist/bundle.js
 	      );
 	    }
 	  }]);
@@ -21643,6 +21647,7 @@
 	                _reactBootstrap.MenuItem,
 	                { eventKey: 3.1, className: 'genre-item' },
 	                'Ti\xEAn Hi\u1EC7p'
+<<<<<<< HEAD:bundle.js
 	              ),
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
@@ -21666,6 +21671,31 @@
 	              ),
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
+=======
+	              ),
+	              _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { eventKey: 3.2, className: 'genre-item' },
+	                'Huy\u1EC1n Huy\u1EC5n'
+	              ),
+	              _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { eventKey: 3.3, className: 'genre-item' },
+	                '\u0110\xF4 Th\u1ECB'
+	              ),
+	              _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { eventKey: 3.4, className: 'genre-item' },
+	                'Khoa Huy\u1EC5n'
+	              ),
+	              _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { eventKey: 3.5, className: 'genre-item' },
+	                'L\u1ECBch S\u1EED'
+	              ),
+	              _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+>>>>>>> 2d8f86514b028ba4de26b3534ff0020638e7220a:dist/bundle.js
 	                { eventKey: 3.6, className: 'genre-item' },
 	                'Qu\xE2n S\u1EF1'
 	              ),

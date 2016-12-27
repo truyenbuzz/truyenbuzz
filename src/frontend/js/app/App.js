@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import Header from './Header';
 import ListCovers from '../stories/ListCovers';
 import Footer from './Footer';
+import Single from '../stories/Single';
+
 class App extends React.Component {
   render() {
     return (
@@ -10,6 +12,9 @@ class App extends React.Component {
         <Header />
         <ListCovers />
         <ListCovers />
+
+        <Single />
+
       </div>
     )
   }
