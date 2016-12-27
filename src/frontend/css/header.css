@@ -1,7 +1,6 @@
 #nav {
   background: #fff;
   border-color: #fff;
-
   border-radius: 0;
   box-shadow: 2px 2px 2px #888888;
 
@@ -12,17 +11,14 @@
 	top: 0;
 }
 #nav-header a{
-  color: #555;
+  color: black;
   font-weight: bold;
-  font-size:20px;
-}
-#nav-item{
-  color: #555;
-  font-size:18px;
+  font-size:21px;
 }
 #basic-nav-dropdown {
-  color: #555;
-  font-size: 18px;
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
 }
 #basic-nav-dropdown:hover {
   background:  #1a1a1a;
@@ -31,6 +27,11 @@
 #basic-nav-dropdown:focus {
   background:  #1a1a1a;
   color: white;
+}
+#nav-item{
+  color: black;
+  font-size:19px;
+  font-weight: bold;
 }
 
 #nav-item:hover {

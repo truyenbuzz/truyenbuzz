@@ -21531,7 +21531,11 @@
 
 	var _Header2 = _interopRequireDefault(_Header);
 
-	var _Footer = __webpack_require__(432);
+	var _ListCovers = __webpack_require__(432);
+
+	var _ListCovers2 = _interopRequireDefault(_ListCovers);
+
+	var _Footer = __webpack_require__(433);
 
 	var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -21558,7 +21562,8 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        _react2.default.createElement(_Header2.default, null)
+	        _react2.default.createElement(_Header2.default, null),
+	        _react2.default.createElement(_ListCovers2.default, null)
 	      );
 	    }
 	  }]);
@@ -21636,24 +21641,63 @@
 	              { eventKey: 3, title: 'Th\u1EC3 lo\u1EA1i', id: 'basic-nav-dropdown' },
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
-	                { eventKey: 3.1 },
-	                'Action'
+	                { eventKey: 3.1, className: 'genre-item' },
+	                'Ti\xEAn Hi\u1EC7p'
 	              ),
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
-	                { eventKey: 3.2 },
-	                'Another action'
+	                { eventKey: 3.2, className: 'genre-item' },
+	                'Huy\u1EC1n Huy\u1EC5n'
 	              ),
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
-	                { eventKey: 3.3 },
-	                'Something else here'
+	                { eventKey: 3.3, className: 'genre-item' },
+	                '\u0110\xF4 Th\u1ECB'
 	              ),
-	              _react2.default.createElement(_reactBootstrap.MenuItem, { divider: true }),
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
-	                { eventKey: 3.3 },
-	                'Separated link'
+	                { eventKey: 3.4, className: 'genre-item' },
+	                'Khoa Huy\u1EC5n'
+	              ),
+	              _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { eventKey: 3.5, className: 'genre-item' },
+	                'L\u1ECBch S\u1EED'
+	              ),
+	              _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { eventKey: 3.6, className: 'genre-item' },
+	                'Qu\xE2n S\u1EF1'
+	              ),
+	              _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { eventKey: 3.7, className: 'genre-item' },
+	                '\u0110\u1ED3ng Nh\xE2n'
+	              ),
+	              _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { eventKey: 3.8, className: 'genre-item' },
+	                'Du H\xED'
+	              ),
+	              _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { eventKey: 3.9, className: 'genre-item' },
+	                'C\u1EA1nh K\u1EF9'
+	              ),
+	              _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { eventKey: 3.10, className: 'genre-item' },
+	                'Linh D\u1ECB'
+	              ),
+	              _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { eventKey: 3.11, className: 'genre-item' },
+	                'Xuy\xEAn Kh\xF4ng'
+	              ),
+	              _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { eventKey: 3.12, className: 'genre-item' },
+	                'Ng\xF4n T\xECnh'
 	              )
 	            )
 	          ),
@@ -40503,6 +40547,55 @@
 
 /***/ },
 /* 432 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var ListCovers = function (_React$Component) {
+	  _inherits(ListCovers, _React$Component);
+
+	  function ListCovers() {
+	    _classCallCheck(this, ListCovers);
+
+	    return _possibleConstructorReturn(this, (ListCovers.__proto__ || Object.getPrototypeOf(ListCovers)).apply(this, arguments));
+	  }
+
+	  _createClass(ListCovers, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "list-cover-wrap col-md-12 border" },
+	        "hello"
+	      );
+	    }
+	  }]);
+
+	  return ListCovers;
+	}(_react2.default.Component);
+
+	exports.default = ListCovers;
+
+/***/ },
+/* 433 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';

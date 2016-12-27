@@ -1,12 +1,10 @@
 var path = require('path');
 var srcPath = path.join(__dirname, 'src');
-var buildPath = path.join(__dirname, 'dist');
-
 module.exports = {
   context: srcPath,
   entry: path.join(srcPath, 'frontend/js', 'client.js'),
   output: {
-      path: buildPath,
+      path: __dirname,
       filename: "bundle.js"
   },
   module: {
@@ -18,7 +16,8 @@ module.exports = {
             query: {
               presets: ['react', 'es2015']
             }
-          }
+          },
+          {test: /\.css$/, loader: "style-loader!css-loader"}
       ]
-  }
+  },
 };

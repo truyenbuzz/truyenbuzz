@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "html-webpack-plugin": "^2.24.1",
     "immutable": "^3.8.1",
     "react": "^15.4.1",
     "react-bootstrap": "^0.30.7",
